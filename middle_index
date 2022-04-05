@@ -1,0 +1,9 @@
+def mid(word):
+    lenght_word = int(len(word))
+    if lenght_word % 2 == 0:
+        return ""
+    else: 
+        middle =  int(lenght_word / 2)
+        return word[middle]
+        
+print(mid("abc"))
