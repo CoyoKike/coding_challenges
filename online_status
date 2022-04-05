@@ -1,0 +1,8 @@
+def online_count(my_dictionary):
+    online_users = 0
+    for user in my_dictionary.values():
+        if user == "online":
+            online_users += 1
+        else:
+            continue
+    return online_users
