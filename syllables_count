@@ -1,0 +1,5 @@
+def count(my_string):
+    syllables = my_string.count("-") + 1
+    return syllables
+    
+print(count("ho-tel"))
