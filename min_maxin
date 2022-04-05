@@ -1,0 +1,8 @@
+def largest_difference(numbers):
+    for i in numbers:
+        smallest = min(numbers)
+        largest = max(numbers)
+        result = largest - smallest
+        return result
+            
+print(largest_difference([5,1,3]))
