@@ -1,0 +1,10 @@
+def capital_indexes(word):
+    capital_list = []
+    for i, char in enumerate(word):
+        if char.isupper():
+            capital_list.append(i)
+    
+    print(capital_list)
+    return capital_list
+
+capital_indexes("HeLlO")
