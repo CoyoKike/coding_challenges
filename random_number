@@ -1,0 +1,8 @@
+import random as rd
+
+def random_number():
+    r_number = rd.randint(0, 101)
+    return r_number
+    
+    
+print(random_number())
