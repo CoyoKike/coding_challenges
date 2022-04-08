@@ -1,9 +1,10 @@
 def palindrome(word):
     if word.lower() == (word.lower())[::-1]:
-        return True
+        return "\nIt is a Palindrome!"
     else:
-        return False
+        return "\nIt is not a Palindrome :("
         
         
-        
-print(palindrome("Bob"))
+word = input("Enter a word to find out if it is a palindrome: ")  
+
+print(palindrome(word))
