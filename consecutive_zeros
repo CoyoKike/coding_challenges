@@ -1,0 +1,14 @@
+def consecutive_zeros(zeros):
+    zerosString = str(zeros)
+    zerosCount = 0
+    answer = 0
+    for i in zerosString:
+        if i == '0':
+            zerosCount += 1
+        else:
+            zerosCount = 0
+            continue
+        answer = max(answer, zerosCount)  
+    return answer
+    
+print(consecutive_zeros("1001101000110"))
