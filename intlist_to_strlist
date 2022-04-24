@@ -1,0 +1,5 @@
+def convert(list):
+    return [str(i) for i in list]
+    
+    
+print(convert([1, 2, 3]))
